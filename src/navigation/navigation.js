@@ -1,4 +1,3 @@
-
 import { SelectableBase } from './../selection/selectable.js';
 export const NavigationTypeEnumeration = Object.freeze({
   View: 'View',
