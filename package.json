@@ -2,6 +2,11 @@
   "name": "ana-react-lib",
   "version": "1.0.0",
   "main": "index.js",
+  "module": "index.mjs",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
